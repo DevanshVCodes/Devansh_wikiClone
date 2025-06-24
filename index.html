@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Clone - Sample Article</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    .header {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-bottom: 1px solid #ccc;
+    }
+    .header h1 {
+      display: inline;
+      margin-right: 50px;
+    }
+    .search-box {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+    .sidebar {
+      width: 20%;
+      background-color: #eeeeee;
+      padding: 15px;
+      box-sizing: border-box;
+      border-right: 1px solid #ccc;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin: 10px 0;
+    }
+    .main-content {
+      width: 80%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .main-content h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Wikipedia</h1>
+    <div class="search-box">
+      <input type="text" placeholder="Search Wikipedia...">
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#">Main Page</a></li>
+        <li><a href="#">Contents</a></li>
+        <li><a href="#">Current Events</a></li>
+        <li><a href="#">Random Article</a></li>
+        <li><a href="#">About Wikipedia</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h1>Sample Article Title</h1>
+      <p><i>From Wikipedia, the free encyclopedia</i></p>
+
+      <p><b>This is a sample article</b> to demonstrate a Wikipedia-like layout using basic HTML and CSS.</p>
+
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#section1">History</a></li>
+        <li><a href="#section2">Features</a></li>
+        <li><a href="#section3">Usage</a></li>
+      </ol>
+
+      <h2 id="section1">History</h2>
+      <p>
+        Wikipedia was launched on January 15, 2001, by Jimmy Wales and Larry Sanger.
+        It was originally intended to complement the expert-reviewed Nupedia.
+      </p>
+
+      <h2 id="section2">Features</h2>
+      <p>
+        Wikipedia allows collaborative editing of content and has thousands of contributors.
+        Articles can contain text, images, and references to sources.
+      </p>
+
+      <h2 id="section3">Usage</h2>
+      <p>
+        It is widely used by students, researchers, and the general public for quick reference.
+        While Wikipedia can be a great source, readers should verify information with reliable sources.
+      </p>
+
+      <h3>References</h3>
+      <ol>
+        <li><a href="#">https://www.wikipedia.org</a></li>
+        <li><a href="#">History of Wikipedia</a></li>
+      </ol>
+    </div>
+  </div>
+
+ 
+
+</body>
+</html>
